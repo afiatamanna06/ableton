@@ -1,0 +1,13 @@
+.nav-menu{
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.nav-menu li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+}
