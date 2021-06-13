@@ -18,3 +18,7 @@
 .nav-menu a:active{
     color: #ff764d;
 }
+
+.rightside{
+    float: right;
+}

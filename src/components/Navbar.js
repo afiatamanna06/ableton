@@ -12,6 +12,8 @@ const Navbar = () => {
                 <li><a href="#">Packs</a></li>
                 <li><a href="#">Help</a></li>
                 <li><a href="#">More</a></li>
+                <li><a href="#" className='rightside'>Try Live for free</a></li>
+                <li><a href="#" className='rightside'>Log in or register</a></li>
             </ul>
         </div>
     )
