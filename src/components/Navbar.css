@@ -1,6 +1,7 @@
 .nav-menu{
     overflow: hidden;
     list-style-type: none;
+    background-color: white;
 }
 
 .nav-menu li{
@@ -10,4 +11,10 @@
 
 .nav-menu a{
     text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.nav-menu a:active{
+    color: coral;
 }
