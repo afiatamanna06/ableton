@@ -9,17 +9,21 @@
     margin-left: 20px;
 }
 
-.nav-menu a{
+.nav-link{
     text-decoration: none;
     color: black;
     text-align: center;
 }
 
-.nav-menu a:active{
+.left:active{
     color: #ff764d;
 }
 
-.rightside{
+a.rightside{
     float: right;
     margin-right: 20px;
+}
+
+a.rightside :active{
+    color: #0000ff;
 }
