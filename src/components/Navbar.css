@@ -19,11 +19,11 @@
     color: #ff764d;
 }
 
-a.rightside{
+.right{
     float: right;
     margin-right: 20px;
 }
 
-a.rightside :active{
+.right:active{
     color: #0000ff;
 }
