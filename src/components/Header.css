@@ -1,6 +1,7 @@
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;
+    grid-template-rows: 520px;
     grid-gap: 100px;
     margin-left: 100px;
     margin-right: 100px;
@@ -11,6 +12,8 @@
     grid-column-start: 1;
     grid-column-end: 3;
     font-size: 100px;
+    font-style: bold;
     color: #ff764d;
-    background: url(../images/header.jpg)
+    background: url(../images/header.jpg) no-repeat center;
+    background-size: cover;
 }
