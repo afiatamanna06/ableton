@@ -3,3 +3,10 @@
     grid-template-columns: auto auto;
     grid-gap: 30px;
 }
+
+.header-pic{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 100px;
+    color: #ff764d;
+}
