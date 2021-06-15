@@ -14,6 +14,7 @@
     text-decoration: none;
     color: black;
     text-align: center;
+    margin-top: 10px;
 }
 
 .left:active{
@@ -22,7 +23,7 @@
 
 .right{
     float: right;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .right:active{
@@ -30,6 +31,6 @@
 }
 
 #logo{
-    height: 60px;
-    width: 60px;
+    height: auto;
+    width: auto;
 }
