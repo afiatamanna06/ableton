@@ -2,6 +2,7 @@
     overflow: hidden;
     list-style-type: none;
     background-color: white;
+    min-height: 100px;
 }
 
 .nav-menu li{
@@ -26,4 +27,9 @@
 
 .right:active{
     color: #0000ff;
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
 }
