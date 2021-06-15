@@ -5,6 +5,7 @@
     grid-gap: 100px;
     margin-left: 100px;
     margin-right: 100px;
+    scroll-behavior: smooth;
     text-align: center;
 }
 
@@ -28,4 +29,11 @@
     margin-left: 220px;
     margin-right: 220px;
     font-size: 20px;
+}
+
+.menu-pic-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background: url(../images/photo-1.jpg) center;
+    background-size: cover;
 }
