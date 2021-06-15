@@ -21,3 +21,11 @@
 .logo{
     padding-top: 110px;
 }
+
+.header-description{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 20px;
+}
