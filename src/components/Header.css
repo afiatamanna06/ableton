@@ -23,7 +23,7 @@
     padding-top: 110px;
 }
 
-.header-description{
+.header-description, .concept{
     grid-column-start: 1;
     grid-column-end: 3;
     margin-left: 220px;
