@@ -31,9 +31,12 @@
     font-size: 20px;
 }
 
-.menu-pic-1{
+.concept-pic-1{
     grid-column-start: 1;
     grid-column-end: 2;
-    background: url(../images/photo-1.jpg) center;
-    background-size: cover;
+}
+
+.concept-1{
+    height: 570px;
+    width: 600px;
 }
