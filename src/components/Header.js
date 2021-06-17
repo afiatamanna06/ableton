@@ -34,6 +34,7 @@ const Header = () => {
                 Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.
                 </p>
             </div>
+            <div className='work'></div>
         </div>
     )
 }
