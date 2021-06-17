@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import concept1 from '../images/photo-1.jpg';
+import concept2 from '../images/photo-2.jpg';
 
 const Header = () => {
     return (
@@ -12,6 +13,9 @@ const Header = () => {
             </div>
             <div className='concept-pic-1'>
                 <img src={concept1} className='concept-1'/>
+            </div>
+            <div className='concept-pic-2'>
+                <img src={concept2} className='concept-2'/>
             </div>
             <div className='concept'>
                 <h2>Making music isn’t easy. It takes time, effort, and learning. But when you’re in the flow, it’s incredibly rewarding.</h2>
