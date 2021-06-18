@@ -33,7 +33,7 @@
     font-size: 20px;
 }
 
-.concept-pic-1{
+.concept-pic-1, .believe-pic-1{
     grid-column-start: 1;
     grid-column-end: 2;
 }
@@ -43,7 +43,7 @@
     width: 600px;
 }
 
-.concept-pic-2{
+.concept-pic-2, .believe-pic-2{
     grid-column-start: 2;
     grid-column-end: 3;
 }
@@ -60,4 +60,14 @@
     width: 640px;
     margin-top: 110px;
     margin-bottom: 110px;
+}
+
+.believe-1{
+    height: 200px;
+    width: 200px;
+}
+
+.believe-2{
+    height: 200px;
+    width: 200px;
 }
