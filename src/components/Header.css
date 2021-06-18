@@ -51,9 +51,15 @@
     width: 600px;
 }
 
-.concept-pic-2, .believe-pic-2{
+.concept-pic-2{
     grid-column-start: 2;
     grid-column-end: 3;
+}
+
+.believe-pic-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-right: 90px;
 }
 
 .concept-2{
@@ -82,6 +88,8 @@
 }
 
 .believe-3{
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 550px;
+    margin-top: 110px;
+    margin-bottom: 110px;
 }
