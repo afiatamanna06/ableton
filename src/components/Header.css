@@ -93,3 +93,8 @@
     margin-top: 110px;
     margin-bottom: 110px;
 }
+
+.passion-img{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
