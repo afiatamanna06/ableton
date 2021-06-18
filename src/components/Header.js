@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import concept1 from '../images/photo-1.jpg';
 import concept2 from '../images/photo-2.jpg';
+import range from '../images/poster-juanpe.jpg';
 
 const Header = () => {
     return (
@@ -20,6 +21,9 @@ const Header = () => {
             <div className='concept'>
                 <h2>Making music isn’t easy. It takes time, effort, and learning. But when you’re in the flow, it’s incredibly rewarding.</h2>
                 <p>We feel the same way about making Ableton products. The driving force behind Ableton is our passion for what we make, and the people we make it for.</p>
+            </div>
+            <div className='range-img'>
+                <img src={range} className='range-pic'/>
             </div>
             <div className='range'>
                 <h2>We are more than 350 people from 30 different countries divided between our headquarters in Berlin and our offices in Los Angeles and Tokyo.</h2>
