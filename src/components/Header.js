@@ -36,6 +36,9 @@ const Header = () => {
                 <img src={believe1} className='believe-1'/>
                 <img src={believe2} className='believe-2'/>
             </div>
+            <div>
+                <img src={believe3} className='believe-3'/>
+            </div>
             <div className='believe'>
                 <h2>We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.</h2>
                 <p>Rather than having a one-size-fits-all process, we try to give our people what they need to work their magic and grow. We’ve learned that achieving the best results comes from building teams that are richly diverse, and thus able to explore problems from a wider set of perspectives. We don’t always agree with each other, but opinion and debate are valued and openly encouraged.</p>
