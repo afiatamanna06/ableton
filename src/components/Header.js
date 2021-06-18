@@ -3,6 +3,9 @@ import './Header.css'
 import concept1 from '../images/photo-1.jpg';
 import concept2 from '../images/photo-2.jpg';
 import range from '../images/poster-juanpe.jpg';
+import believe1 from '../images/photo-3.jpg'
+import believe2 from '../images/photo-4.jpg'
+import believe3 from '../images/photo-5.jpg'
 
 const Header = () => {
     return (
@@ -28,6 +31,10 @@ const Header = () => {
             <div className='range'>
                 <h2>We are more than 350 people from 30 different countries divided between our headquarters in Berlin and our offices in Los Angeles and Tokyo.</h2>
                 <p>Most of us are active musicians, producers, and DJs, and many of us use Live and Push every day. We come from a wide range of cultural and professional backgrounds. Some of us have PhDs, some are self-taught, and most of us are somewhere in between. What connects us is the shared belief that each of us has the skills and knowledge to contribute to something big: helping to shape the future of music culture.</p>
+            </div>
+            <div>
+                <img src={believe1} className='believe-1'/>
+                <img src={believe2} className='believe-2'/>
             </div>
             <div className='believe'>
                 <h2>We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.</h2>
