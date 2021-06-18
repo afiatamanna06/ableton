@@ -98,3 +98,8 @@
     grid-column-start: 1;
     grid-column-end: 3;
 }
+
+.passion-pic{
+    height: 500px;
+    width: 600px;
+}
