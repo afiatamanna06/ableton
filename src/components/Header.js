@@ -7,6 +7,8 @@ import believe1 from '../images/photo-3.jpg'
 import believe2 from '../images/photo-4.jpg'
 import believe3 from '../images/photo-5.jpg'
 import passion from '../images/poster-meet-the-makers.jpg'
+import work1 from '../images/photo-6.jpg'
+import work2 from '../images/photo-7.jpg'
 
 const Header = () => {
     return (
