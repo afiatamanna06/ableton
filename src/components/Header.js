@@ -9,6 +9,7 @@ import believe3 from '../images/photo-5.jpg'
 import passion from '../images/poster-meet-the-makers.jpg'
 import work1 from '../images/photo-6-a.jpg'
 import work2 from '../images/photo-7.jpg'
+import join from '../images/photo-8.jpg'
 
 const Header = () => {
     return (
@@ -65,6 +66,10 @@ const Header = () => {
             <div className='work'>
                 <h2>We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.</h2>
                 <p>If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.</p>
+            </div>
+            <div className='join'>
+                <img src={join} className='join-pic'/>
+                <div><h2></h2></div>
             </div>
         </div>
     )
