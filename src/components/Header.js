@@ -69,7 +69,7 @@ const Header = () => {
             </div>
             <div className='join'>
                 <img src={join} className='join-pic'/>
-                <div><h2></h2></div>
+                <div className='join-description'><h2></h2></div>
             </div>
         </div>
     )
