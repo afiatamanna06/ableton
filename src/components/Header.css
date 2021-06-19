@@ -33,7 +33,7 @@
     font-size: 20px;
 }
 
-.concept-pic-1{
+.concept-pic-1, work-pic-1{
     grid-column-start: 1;
     grid-column-end: 2;
 }
@@ -51,7 +51,7 @@
     width: 600px;
 }
 
-.concept-pic-2{
+.concept-pic-2, .work-pic-2{
     grid-column-start: 2;
     grid-column-end: 3;
 }
@@ -103,3 +103,10 @@
     height: 500px;
     width: 600px;
 }
+
+.work-1{
+    height: 320px;
+    width: 450px;
+}
+
+.work-2{}
