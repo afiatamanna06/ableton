@@ -56,6 +56,12 @@ const Header = () => {
                 Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.
                 </p>
             </div>
+            <div className='work-pic-1'>
+                <img src={work1} className='work-1'/>
+            </div>
+            <div className='work-pic-2'>
+                <img src={work2} className='work-2'/>
+            </div>
             <div className='work'>
                 <h2>We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.</h2>
                 <p>If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.</p>
