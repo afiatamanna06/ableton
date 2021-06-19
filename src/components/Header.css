@@ -115,3 +115,9 @@
     height: 570px;
     width: 570px;
 }
+
+.join{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+}
