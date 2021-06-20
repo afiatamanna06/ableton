@@ -120,13 +120,18 @@
     grid-column-start: 1;
     grid-column-end: 3;
     display: flex;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .join-pic{
-    height: 600px;
-    width: 500px;
+    height: 550px;
+    width: 550px;
     margin-bottom: 100px;
 }
 
+.join-description{
+    height: 550px;
+    width: 550px;
+    background: #b1c5ff;
+}
