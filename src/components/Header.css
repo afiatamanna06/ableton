@@ -134,4 +134,9 @@
     height: 550px;
     width: 550px;
     background: #b1c5ff;
+    text-align: center;
+}
+
+.description{
+    padding: 110px;
 }
