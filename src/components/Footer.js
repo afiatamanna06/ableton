@@ -10,8 +10,8 @@ const Footer = () => {
                     <h1 className='logo-footer'>Ableton</h1>
                     <ul className='items'>
                         <li><a href='#' className='item-link'>Register Live or Push<FaAngleRight className='angle'/></a></li>
-                        <li><a href='#' className='item-link'>About Ableton</a></li>
-                        <li><a href='#' className='item-link'>Jobs</a></li>
+                        <li><a href='#' className='item-link'>About Ableton<FaAngleRight className='angle'/></a></li>
+                        <li><a href='#' className='item-link'>Jobs<FaAngleRight className='angle'/></a></li>
                     </ul>
                </div>
             </div>
