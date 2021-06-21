@@ -1,0 +1,8 @@
+.items{
+    list-style-type: none;
+}
+
+.item-link{
+    text-decoration: none;
+    color: black;
+}
