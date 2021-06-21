@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='container'>
             <div className='items-column'>
                <div className='top-row'>
-                    <h1>Ableton</h1>
+                    <h1 className='logo-footer'>Ableton</h1>
                     <ul className='items'>
                         <li><a href='#' className='item-link'>Register Live or Push</a></li>
                         <li><a href='#' className='item-link'>About Ableton</a></li>
