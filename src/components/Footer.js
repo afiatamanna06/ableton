@@ -18,7 +18,7 @@ const Footer = () => {
                                 <a href='#'><FaFacebook className='fb icon'/></a>
                                 <a href='#'><FaTwitter className='tw icon'/></a>
                                 <a href='#'><FaYoutube className='yt icon'/></a>
-                                <a href='#'><FaInstagram className='It icon'/></a>
+                                <a href='#'><FaInstagram className='it icon'/></a>
                             </div>
                         </li>
                     </ul>
