@@ -2,6 +2,10 @@
     font-size: 60px;
 }
 
+li{
+    margin-bottom: 13px;
+}
+
 .items{
     list-style-type: none;
 }
