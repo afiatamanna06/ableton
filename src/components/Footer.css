@@ -19,11 +19,12 @@
 }
 
 .fb-icon{
-    background-color: blue;
+    background-color: #0000ff;
     color: white;
     height: 25px;
     width: 25px;
     padding: 5px;
+    margin-right: 10px;
 }
 
 .item-inline{
@@ -31,9 +32,10 @@
 }
 
 .tw-icon{
-    background-color: skyblue;
+    background-color: #b1c5ff;
     color: white;
     height: 25px;
     width: 25px;
     padding: 5px;
+    margin-right: 10px;
 }
