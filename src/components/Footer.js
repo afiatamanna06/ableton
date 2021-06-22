@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { FaAngleRight } from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -12,6 +13,7 @@ const Footer = () => {
                         <li><a href='#' className='item-link'>Register Live or Push<FaAngleRight className='angle'/></a></li>
                         <li><a href='#' className='item-link'>About Ableton<FaAngleRight className='angle'/></a></li>
                         <li><a href='#' className='item-link'>Jobs<FaAngleRight className='angle'/></a></li>
+                        <li><a href='#' className='item-link'><FaFacebook className='fb-icon'/></a></li>
                     </ul>
                </div>
             </div>

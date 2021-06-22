@@ -17,3 +17,11 @@
     top: 5px;
     left: 1px;
 }
+
+.fb-icon{
+    background-color: blue;
+    color: white;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+}
