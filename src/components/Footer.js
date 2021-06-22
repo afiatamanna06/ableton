@@ -13,7 +13,11 @@ const Footer = () => {
                         <li><a href='#' className='item-link'>Register Live or Push<FaAngleRight className='angle'/></a></li>
                         <li><a href='#' className='item-link'>About Ableton<FaAngleRight className='angle'/></a></li>
                         <li><a href='#' className='item-link'>Jobs<FaAngleRight className='angle'/></a></li>
-                        <li><a href='#' className='item-link'><FaFacebook className='fb-icon'/></a></li>
+                        <li>
+                            <div className='item-inline'>
+                                <a href='#'><FaFacebook className='fb-icon'/></a>
+                            </div>
+                        </li>
                     </ul>
                </div>
             </div>

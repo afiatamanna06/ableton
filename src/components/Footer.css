@@ -25,3 +25,7 @@
     width: 25px;
     padding: 5px;
 }
+
+.item-inline{
+    display: inline;
+}
