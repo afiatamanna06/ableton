@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { FaAngleRight } from 'react-icons/fa'
-import { FaFacebook } from 'react-icons/fa'
+import { FaFacebook, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -16,6 +16,7 @@ const Footer = () => {
                         <li>
                             <div className='item-inline'>
                                 <a href='#'><FaFacebook className='fb-icon'/></a>
+                                <a href='#'><FaTwitter className='tw-icon'/></a>
                             </div>
                         </li>
                     </ul>
