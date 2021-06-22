@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { FaAngleRight } from 'react-icons/fa'
-import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -18,6 +18,7 @@ const Footer = () => {
                                 <a href='#'><FaFacebook className='fb icon'/></a>
                                 <a href='#'><FaTwitter className='tw icon'/></a>
                                 <a href='#'><FaYoutube className='yt icon'/></a>
+                                <a href='#'><FaInstagram className='It icon'/></a>
                             </div>
                         </li>
                     </ul>
