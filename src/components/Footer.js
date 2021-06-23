@@ -41,6 +41,13 @@ const Footer = () => {
                         <li><a href='#' className='item-link'>Ableton for Colleges and Universities<FaAngleRight className='angle'/></a></li>
                    </ul>
                </div>
+               <div>
+                   <ul className='items'>
+                       <li><h3>Distributors</h3></li>
+                        <li><a href='#' className='item-link'>Find Distributors<FaAngleRight className='angle'/></a></li>
+                        <li><a href='#' className='item-link'>Try Push in-store<FaAngleRight className='angle'/></a></li>
+                   </ul>
+               </div>
             </div>
         </div>
     )
