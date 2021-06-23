@@ -43,9 +43,18 @@ const Footer = () => {
                </div>
                <div>
                    <ul className='items'>
-                       <li><h3>Distributors</h3></li>
+                        <li><h3>Distributors</h3></li>
                         <li><a href='#' className='item-link'>Find Distributors<FaAngleRight className='angle'/></a></li>
                         <li><a href='#' className='item-link'>Try Push in-store<FaAngleRight className='angle'/></a></li>
+                   </ul>
+               </div>
+            </div>
+            <div className='items-column'>
+                <div>
+                   <ul className='items'>
+                        <li><h3>Sign up to our newsletter</h3></li>
+                        <li><p>Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p></li>
+                        <li><input type='email' value='email' placeholder='Email Address'></input></li>
                    </ul>
                </div>
             </div>
