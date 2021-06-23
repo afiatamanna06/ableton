@@ -64,3 +64,12 @@ li{
     font-size: 17px;
     border-style: hidden;
 }
+
+.input-signup{
+    width: 300px;
+    height: 40px;
+    padding-left: 13px;
+    font-size: 20px;
+    border-style: hidden;
+    background-color: #e6e6e6;
+}
