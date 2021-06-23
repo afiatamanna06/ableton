@@ -23,6 +23,12 @@ const Footer = () => {
                         </li>
                     </ul>
                </div>
+               <div>
+                   <h2>Community</h2>
+                   <ul className='items'>
+                       
+                   </ul>
+               </div>
             </div>
         </div>
     )
