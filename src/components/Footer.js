@@ -32,6 +32,16 @@ const Footer = () => {
                    </ul>
                </div>
             </div>
+            <div className='items-column'>
+                <div>
+                   <ul className='items'>
+                       <li><h3>Education</h3></li>
+                        <li><a href='#' className='item-link'>Offers for students and teachers<FaAngleRight className='angle'/></a></li>
+                        <li><a href='#' className='item-link'>Ableton for the Classroom<FaAngleRight className='angle'/></a></li>
+                        <li><a href='#' className='item-link'>Ableton for Colleges and Universities<FaAngleRight className='angle'/></a></li>
+                   </ul>
+               </div>
+            </div>
         </div>
     )
 }

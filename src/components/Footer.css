@@ -1,3 +1,8 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .logo-footer{
     font-size: 60px;
 }
