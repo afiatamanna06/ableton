@@ -15,10 +15,10 @@ const Footer = () => {
                         <li><a href='#' className='item-link'>Jobs<FaAngleRight className='angle'/></a></li>
                         <li>
                             <div className='item-inline'>
-                                <a href='#'><FaFacebook className='fb icon'/></a>
-                                <a href='#'><FaTwitter className='tw icon'/></a>
-                                <a href='#'><FaYoutube className='yt icon'/></a>
-                                <a href='#'><FaInstagram className='it icon'/></a>
+                                <a href='https://www.facebook.com/'><FaFacebook className='fb icon'/></a>
+                                <a href='https://www.twitter.com/'><FaTwitter className='tw icon'/></a>
+                                <a href='https://www.youtube.com/'><FaYoutube className='yt icon'/></a>
+                                <a href='https://www.instagram.com/'><FaInstagram className='it icon'/></a>
                             </div>
                         </li>
                     </ul>
