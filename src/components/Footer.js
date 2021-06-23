@@ -8,8 +8,8 @@ const Footer = () => {
         <div className='container'>
             <div className='items-column'>
                <div className='top-row'>
-                    <h1 className='logo-footer'>Ableton</h1>
                     <ul className='items'>
+                        <li><h1 className='logo-footer'>Ableton</h1></li>
                         <li><a href='#' className='item-link'>Register Live or Push<FaAngleRight className='angle'/></a></li>
                         <li><a href='#' className='item-link'>About Ableton<FaAngleRight className='angle'/></a></li>
                         <li><a href='#' className='item-link'>Jobs<FaAngleRight className='angle'/></a></li>
@@ -24,8 +24,8 @@ const Footer = () => {
                     </ul>
                </div>
                <div>
-                   <h2>Community</h2>
                    <ul className='items'>
+                       <li><h3>Community</h3></li>
                         <li><a href='#' className='item-link'>Find Ableton User Groups<FaAngleRight className='angle'/></a></li>
                         <li><a href='#' className='item-link'>Find Certified Training<FaAngleRight className='angle'/></a></li>
                         <li><a href='#' className='item-link'>Become a Certified Trainer<FaAngleRight className='angle'/></a></li>
