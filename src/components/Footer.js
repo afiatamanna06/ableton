@@ -26,7 +26,9 @@ const Footer = () => {
                <div>
                    <h2>Community</h2>
                    <ul className='items'>
-                       
+                        <li><a href='#' className='item-link'>Find Ableton User Groups<FaAngleRight className='angle'/></a></li>
+                        <li><a href='#' className='item-link'>Find Certified Training<FaAngleRight className='angle'/></a></li>
+                        <li><a href='#' className='item-link'>Become a Certified Trainer<FaAngleRight className='angle'/></a></li>
                    </ul>
                </div>
             </div>
