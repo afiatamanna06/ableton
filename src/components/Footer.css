@@ -4,10 +4,7 @@
 
 .items-column{
     flex-wrap: wrap;
-}
-
-.logo-footer{
-    font-size: 60px;
+    margin-left: 10px;
 }
 
 li{

@@ -6,10 +6,9 @@ import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa'
 const Footer = () => {
     return (
         <div className='container'>
-            <div className='items-column'>
-               <div className='top-row'>
+            <div className='items-column'>    
+                <div className='top-row'>
                     <ul className='items'>
-                        <li><h1 className='logo-footer'>Ableton</h1></li>
                         <li><a href='#' className='item-link'>Register Live or Push<FaAngleRight className='angle'/></a></li>
                         <li><a href='#' className='item-link'>About Ableton<FaAngleRight className='angle'/></a></li>
                         <li><a href='#' className='item-link'>Jobs<FaAngleRight className='angle'/></a></li>

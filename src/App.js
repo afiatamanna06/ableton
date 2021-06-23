@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar className='navbar-menu'/>
       <Header />
+      <h1 className='logo-footer'>Ableton</h1>
       <Footer />
     </div>
   );
