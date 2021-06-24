@@ -62,7 +62,7 @@ const Footer = () => {
                         <li>
                             <div className='language-select'>
                                 <select className='languages'>
-                                    <option id='english'>English</option>
+                                    <option id='english' selected>English</option>
                                     <option id='deutsch'>Deutsch</option>
                                     <option id='francais'>Français</option>
                                     <option id='japanese'>日本語</option>

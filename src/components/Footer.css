@@ -97,6 +97,7 @@ li{
     padding: 5px 8px;
     background-color: #e6e6e6;
     font-size: 12px;
+    cursor: pointer;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
