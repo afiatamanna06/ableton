@@ -73,3 +73,31 @@ li{
     border-style: hidden;
     background-color: #e6e6e6;
 }
+
+.language-select{
+    height: 30px;
+    width: 110px;
+    position: relative;
+    border-radius: 3px;
+}
+
+.language-select::after{
+    content: "▼";
+    padding: 4px 1px;
+    position: absolute;
+    right: 10px;
+    width: 10%;
+    height: 30%;
+    pointer-events: none;
+}
+
+.languages{
+    height: 30px;
+    width: 100%;
+    padding: 5px 8px;
+    background-color: #e6e6e6;
+    font-size: 12px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

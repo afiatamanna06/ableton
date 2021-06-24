@@ -60,13 +60,15 @@ const Footer = () => {
                    <ul className='items'>
                         <li><h3>Language and Location</h3></li>
                         <li>
-                            <select>
-                                <option id='english'>English</option>
-                                <option id='deutsch'>Deutsch</option>
-                                <option id='francais'>Français</option>
-                                <option id='japanese'>日本語</option>
-                                <option id='chinese'>简体中文</option>
-                            </select>
+                            <div className='language-select'>
+                                <select className='languages'>
+                                    <option id='english'>English</option>
+                                    <option id='deutsch'>Deutsch</option>
+                                    <option id='francais'>Français</option>
+                                    <option id='japanese'>日本語</option>
+                                    <option id='chinese'>简体中文</option>
+                                </select>
+                            </div>
                         </li>
                    </ul>
                </div>
