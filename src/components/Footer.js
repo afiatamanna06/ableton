@@ -56,6 +56,12 @@ const Footer = () => {
                         <li><input type='email' placeholder='Email Address' className='input-signup'></input><button className='btn-signup'>Sign Up</button></li>
                    </ul>
                </div>
+               <div>
+                   <ul className='items'>
+                        <li><h3>Language and Location</h3></li>
+                        <li></li>
+                   </ul>
+               </div>
             </div>
         </div>
     )
