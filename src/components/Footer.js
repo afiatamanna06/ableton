@@ -59,7 +59,15 @@ const Footer = () => {
                <div>
                    <ul className='items'>
                         <li><h3>Language and Location</h3></li>
-                        <li></li>
+                        <li>
+                            <select>
+                                <option>English</option>
+                                <option>Deutsch</option>
+                                <option>Français</option>
+                                <option>日本語</option>
+                                <option>简体中文</option>
+                            </select>
+                        </li>
                    </ul>
                </div>
             </div>
