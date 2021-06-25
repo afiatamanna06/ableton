@@ -37,7 +37,7 @@
 .concept-pic-1, work-pic-1{
     grid-column-start: 1;
     grid-column-end: 2;
-    margin-left: 80px;
+    margin-left: 1rem;
 }
 
 .believe-pic-1{
