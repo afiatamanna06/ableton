@@ -31,12 +31,12 @@ li{
     color: white;
     height: 2rem;
     width: 2rem;
-    padding: 5px;
-    margin-right: 10px;
+    padding: 0.28rem;
+    margin-right: 0.70rem;
 }
 
 .fb{
-    background-color: #0000ff;   
+    background-color: #0066cc;   
 }
 
 .item-inline{
@@ -44,7 +44,7 @@ li{
 }
 
 .tw{
-    background-color: #b1c5ff;
+    background-color: #008ae6;
 }
 
 .yt{
@@ -52,7 +52,7 @@ li{
 }
 
 .it{
-    background-color: darkorange;
+    background-color: #e65c00;
 }
 
 .btn-signup{
