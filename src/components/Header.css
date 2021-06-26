@@ -133,12 +133,13 @@
 }
 
 .join-description{
-    height: 550px;
-    width: 550px;
+    height: 36rem;
+    width: 36rem;
     background: #b1c5ff;
     text-align: justify;
 }
 
 .description{
     padding: 7rem;
+    margin-top: 1rem;
 }
