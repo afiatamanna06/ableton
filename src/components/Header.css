@@ -143,3 +143,9 @@
     padding: 7rem;
     margin-top: 1rem;
 }
+
+.job-icon{
+    position: relative;
+    top: 5px;
+    left: 1px;
+}
