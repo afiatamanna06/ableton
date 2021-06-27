@@ -70,7 +70,7 @@ const Header = () => {
             </div>
             <div className='join'>
                 <img src={join} className='join-pic'/>
-                <div className='join-description'><h2 className='description'>We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.<br></br><a href='#'>See latest jobs<FaAngleRight className='job-icon'/></a></h2></div>
+                <div className='join-description'><h2 className='description'>We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.<br></br><a href='#' className='job-link'>See latest jobs<FaAngleRight className='job-icon'/></a></h2></div>
             </div>
         </div>
     )

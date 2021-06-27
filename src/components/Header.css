@@ -148,4 +148,10 @@
     position: relative;
     top: 5px;
     left: 1px;
+    color: blue;
+}
+
+.job-link{
+    text-decoration: none;
+    color: blue;
 }
