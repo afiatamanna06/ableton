@@ -96,20 +96,14 @@
     margin-bottom: 7rem;
 }
 
-/*.passion-img{
+.passion-pic{
     grid-column-start: 1;
     grid-column-end: 3;
+    height: 40rem;
+    width: 70rem;
     margin-left: 7rem;
     margin-bottom: 6.5rem;
 }
-
-.passion-pic{
-    height: 30rem;
-    width: 70rem;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}*/
 
 .work-1{
     height: 22rem;
@@ -131,6 +125,7 @@
     grid-column-end: 2;
     margin-left: 11.5rem;
     margin-top: 1rem;
+    margin-bottom: 7rem;
 }
 
 .join-pic{

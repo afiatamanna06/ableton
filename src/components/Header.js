@@ -48,9 +48,7 @@ const Header = () => {
                 <h2>We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.</h2>
                 <p>Rather than having a one-size-fits-all process, we try to give our people what they need to work their magic and grow. We’ve learned that achieving the best results comes from building teams that are richly diverse, and thus able to explore problems from a wider set of perspectives. We don’t always agree with each other, but opinion and debate are valued and openly encouraged.</p>
             </div>
-            {/*<div className='passion-img'>
-                <img src={passion} className='passion-pic'/>
-            </div>*/}
+            <img src={passion} className='passion-pic'/>
             <div className='passion'>
                 <h2>We’re passionate about what we do, but we’re equally passionate about improving who we are.</h2>
                 <p>We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.
