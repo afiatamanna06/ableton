@@ -80,7 +80,7 @@ li{
     width: 7rem;
     position: relative;
     border-radius: 3px;
-    margin-right: .15rem;
+    margin-right: .16rem;
 }
 
 .language-select::after, .country-select::after{
@@ -107,7 +107,7 @@ li{
 
 .country-select{
     height: 2rem;
-    width: 13rem;
+    width: 12.5rem;
     position: relative;
     border-radius: 3px;
 }
@@ -115,7 +115,7 @@ li{
 .countries{
     height: 2rem;
     width: 100%;
-    padding: 5px 8px;
+    padding: 5px 9px;
     background-color: #e6e6e6;
     font-size: 12px;
     cursor: pointer;
