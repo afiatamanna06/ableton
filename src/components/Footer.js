@@ -75,6 +75,12 @@ const Footer = () => {
                                         <option>United States</option>
                                         <option>United Kingdom</option>
                                     </optgroup>
+                                    <optgroup label='All Countries/Regions'>
+                                        <option>Bangladesh</option>
+                                        <option>Canada</option>
+                                        <option>Japan</option>
+                                        <option>Korea</option>
+                                    </optgroup>
                                 </select>
                             </div>
                         </li>

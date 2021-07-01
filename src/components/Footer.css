@@ -82,7 +82,7 @@ li{
     border-radius: 3px;
 }
 
-.language-select::after{
+.language-select::after, .country-select::after{
     content: "▼";
     padding: 4px 1px;
     position: absolute;
@@ -93,6 +93,25 @@ li{
 }
 
 .languages{
+    height: 2rem;
+    width: 100%;
+    padding: 5px 8px;
+    background-color: #e6e6e6;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.country-select{
+    height: 2rem;
+    width: 13rem;
+    position: relative;
+    border-radius: 3px;
+}
+
+.countries{
     height: 2rem;
     width: 100%;
     padding: 5px 8px;
