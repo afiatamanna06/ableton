@@ -59,7 +59,7 @@ const Footer = () => {
                <div>
                    <ul className='items'>
                         <li><h3>Language and Location</h3></li>
-                        <li>
+                        <li className='inline-items'>
                             <div className='language-select'>
                                 <select className='languages'>
                                     <option id='english' selected>English</option>
@@ -67,6 +67,14 @@ const Footer = () => {
                                     <option id='francais'>Français</option>
                                     <option id='japanese'>日本語</option>
                                     <option id='chinese'>简体中文</option>
+                                </select>
+                            </div>
+                            <div className='country-select'>
+                                <select className='countries'>
+                                    <optgroup label='Common Countries'>
+                                        <option>United States</option>
+                                        <option>United Kingdom</option>
+                                    </optgroup>
                                 </select>
                             </div>
                         </li>

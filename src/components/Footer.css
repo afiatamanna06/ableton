@@ -103,3 +103,7 @@ li{
     -moz-appearance: none;
     appearance: none;
 }
+
+.inline-items{
+    display: inline;
+}
