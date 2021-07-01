@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Navbar className='navbar-menu'/>
-      <Header />
+      <Header className='header'/>
       <h1 className='logo-footer'>Ableton</h1>
       <Footer />
     </div>

@@ -48,9 +48,9 @@ const Header = () => {
                 <h2>We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.</h2>
                 <p>Rather than having a one-size-fits-all process, we try to give our people what they need to work their magic and grow. We’ve learned that achieving the best results comes from building teams that are richly diverse, and thus able to explore problems from a wider set of perspectives. We don’t always agree with each other, but opinion and debate are valued and openly encouraged.</p>
             </div>
-            <div className='passion-img'>
+            {/*<div className='passion-img'>
                 <img src={passion} className='passion-pic'/>
-            </div>
+            </div>*/}
             <div className='passion'>
                 <h2>We’re passionate about what we do, but we’re equally passionate about improving who we are.</h2>
                 <p>We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.
@@ -68,9 +68,11 @@ const Header = () => {
                 <h2>We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.</h2>
                 <p>If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.</p>
             </div>
-            <div className='join'>
+            <div className='join-img'>
                 <img src={join} className='join-pic'/>
-                <div className='join-description'><h2 className='description'>We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.<br></br><a href='#' className='job-link'>See latest jobs<FaAngleRight className='job-icon'/></a></h2></div>
+            </div>
+            <div className='join-box'>
+                <div className='join-description'><h2 className='description'>We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.<br></br><br></br><a href='#' className='job-link'>See latest jobs<FaAngleRight className='job-icon'/></a></h2></div>
             </div>
         </div>
     )

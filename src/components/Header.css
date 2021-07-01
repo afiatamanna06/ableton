@@ -1,43 +1,42 @@
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: 32.5rem;
-    grid-gap: 5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    scroll-behavior: smooth;
+    grid-template-rows: 38.5rem;
     text-align: justify;
 }
 
 .header-pic{
     grid-column-start: 1;
     grid-column-end: 3;
-    font-size: 100px;
+    font-size: 7.5rem;
     font-style: bold;
     margin-left: 7rem;
-    margin-right: 7rem;
+    margin-right: 14rem;
     color: #ff764d;
     text-align: center;
     background: url(../images/header.jpg) no-repeat center;
     background-size: cover;
+    margin-bottom: 6.5rem;
 }
 
 .logo{
-    padding-top: 110px;
+    padding-top: 4rem;
 }
 
 .header-description, .concept, .range, .believe, .passion, .work, .range-img{
     grid-column-start: 1;
     grid-column-end: 3;
-    margin-left: 340px;
-    margin-right: 340px;
     font-size: 20px;
+    margin-left: 21rem;
+    margin-right: 27rem;
+    margin-bottom: 6.5rem;
 }
 
 .concept-pic-1, work-pic-1{
     grid-column-start: 1;
     grid-column-end: 2;
-    margin-left: 1rem;
+    margin-left: 7rem;
+    margin-bottom: 6.5rem;
 }
 
 .believe-pic-1{
@@ -45,7 +44,8 @@
     grid-column-end: 2;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 7rem;
+    margin-bottom: 6.5rem;
 }
 
 .concept-1{
@@ -56,12 +56,14 @@
 .concept-pic-2, .work-pic-2{
     grid-column-start: 2;
     grid-column-end: 3;
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 
 .believe-pic-2{
     grid-column-start: 2;
     grid-column-end: 3;
-    margin-right: 80px;
+    margin-right: 7rem;
 }
 
 .concept-2{
@@ -74,8 +76,6 @@
 .range-pic{
     height: 25rem;
     width: 43rem;
-    margin-top: 7rem;
-    margin-bottom: 7rem;
 }
 
 .believe-1{
@@ -96,45 +96,57 @@
     margin-bottom: 7rem;
 }
 
-.passion-img{
+/*.passion-img{
     grid-column-start: 1;
     grid-column-end: 3;
+    margin-left: 7rem;
+    margin-bottom: 6.5rem;
 }
 
 .passion-pic{
-    height: 40rem;
-    width: 80rem;
-}
+    height: 30rem;
+    width: 70rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}*/
 
 .work-1{
     height: 22rem;
     width: 29rem;
     margin-top: 7rem;
     margin-bottom: 7rem;
+    margin-left: 7rem;
 }
 
 .work-2{
-    height: 36rem;
-    width: 36rem;
+    height: 34.71rem;
+    width: 34.71rem;
+    margin-right: 0.25rem;
+    margin-bottom: 6.5rem;
 }
 
-.join{
+.join-img{
     grid-column-start: 1;
-    grid-column-end: 3;
-    display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    grid-column-end: 2;
+    margin-left: 11.5rem;
+    margin-top: 1rem;
 }
 
 .join-pic{
-    height: 36rem;
-    width: 36rem;
-    margin-bottom: 10rem;
+    height: 31rem;
+    width: 31rem;
+}
+
+.join-box{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-right: 7rem;
 }
 
 .join-description{
-    height: 36rem;
-    width: 36rem;
+    height: 31rem;
+    width: 31rem;
     background: #b1c5ff;
     text-align: justify;
 }
