@@ -80,6 +80,7 @@ li{
     width: 7rem;
     position: relative;
     border-radius: 3px;
+    margin-right: .15rem;
 }
 
 .language-select::after, .country-select::after{
@@ -124,5 +125,5 @@ li{
 }
 
 .inline-items{
-    display: inline;
+    display: flex;
 }
