@@ -162,3 +162,10 @@
     text-decoration: none;
     color: blue;
 }
+
+.floating-nav{
+    list-style-type: none;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
