@@ -7,7 +7,7 @@
 
 .nav-menu li{
     display: inline;
-    margin-left: 20px;
+    margin-right: 2.5rem;
 }
 
 .nav-link{
@@ -31,6 +31,8 @@
 }
 
 #logo{
-    height: auto;
+    height: 1.97rem;
     width: auto;
+    position: relative;
+    top: 7px;
 }
