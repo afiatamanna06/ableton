@@ -12,12 +12,13 @@ const Navbar = () => {
         { content: "Link", url: "#" },
         { content: "Shop", url: "#" },
         { content: "Packs", url: "#" },
-        { content: "Help", url: "#" },
-        { content: "More", url: "#" },
-        { content: <FaPlus />, url: "#" },
+        { content: "Help", url: "#" }
+      ];
+
+    const right_links = [
         { content: "Log in or register", url: "#" },
         { content: "Try Live for free", url: "#" }
-      ];
+    ];
 
     return (
         <div>
@@ -30,6 +31,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 ))}
+                <li><a href='#' className='nav-link left'>More<FaPlus className='plus-icon'/></a></li>
             </ul>
         </div>
     )

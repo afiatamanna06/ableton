@@ -36,3 +36,11 @@
     position: relative;
     top: 7px;
 }
+
+.plus-icon{
+    height: .95rem;
+    width: .95rem;
+    position: relative;
+    top: 3px;
+    left: 6px;
+}
