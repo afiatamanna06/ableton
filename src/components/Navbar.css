@@ -2,7 +2,7 @@
     overflow: hidden;
     list-style-type: none;
     background-color: white;
-    min-height: 100px;
+    min-height: 1.5rem;
 }
 
 .nav-menu li{
