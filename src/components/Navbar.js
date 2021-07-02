@@ -32,6 +32,14 @@ const Navbar = () => {
                 </li>
                 ))}
                 <li><a href='#' className='nav-link left'>More<FaPlus className='plus-icon'/></a></li>
+                {right_links?.map(({ content, url }) => (
+                // an unique key is vital for React for optimization purpose
+                <li key={url}>
+                    <a href={url} className="nav-link right">
+                    {content}
+                    </a>
+                </li>
+                ))}
             </ul>
         </div>
     )

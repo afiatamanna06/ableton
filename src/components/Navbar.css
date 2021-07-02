@@ -23,7 +23,7 @@
 
 .right{
     float: right;
-    margin-left: 20px;
+    margin-right: 2rem;
 }
 
 .right:active{
