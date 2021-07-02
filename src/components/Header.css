@@ -168,4 +168,11 @@
     display: flex;
     position: sticky;
     top: 0;
+    background-color: rgba(255, 255, 255, .90);
+    padding: 1rem;
+}
+
+.floating-nav li{
+    margin-left: 1.8rem;
+    margin-top: 0.25rem;
 }
