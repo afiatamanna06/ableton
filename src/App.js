@@ -33,7 +33,7 @@ function App() {
             </li>
           ))}
           <li className='footer-right right-pos'><img src={background} alt="logo" id="logo-footer" /></li>
-          <li className='footer-right'>Made in Berlin</li>
+          <li className='footer-right logo-para'>Made in Berlin</li>
         </ul>
       </div>
     </div>

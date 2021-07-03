@@ -31,3 +31,13 @@
 .right-pos{
     margin-right: 4rem;
 }
+
+#logo-footer{
+    position: relative;
+    bottom: 5px;
+}
+
+.logo-para{
+    position: relative;
+    right: 10px;
+}
