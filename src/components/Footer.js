@@ -4,6 +4,17 @@ import { FaAngleRight } from 'react-icons/fa'
 import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa'
 
 const Footer = () => {
+
+    const footer_links = [
+        { content: "Archive", url: "#" },
+        { content: "Contact Us", url: "#" },
+        { content: "Press Resources", url: "#" },
+        { content: "Legal Info", url: "#" },
+        { content: "Privacy Policy", url: "#" },
+        { content: "Cookie Settings", url: "#" },
+        { content: "Imprint", url: "#" }
+      ];
+
     return (
         <div className='container'>
             <div className='items-column'>    
@@ -86,6 +97,9 @@ const Footer = () => {
                         </li>
                    </ul>
                </div>
+            </div>
+            <div>
+
             </div>
         </div>
     )
