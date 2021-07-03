@@ -21,3 +21,13 @@
     font-size: .75rem;
     font-weight: bold;
 }
+
+.footer-right{
+    font-size: .75rem;
+    float: right;
+    font-weight: bold;
+}
+
+.right-pos{
+    margin-right: 4rem;
+}

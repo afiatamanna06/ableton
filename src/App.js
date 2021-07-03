@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import background from './images/logo.png'
 
 function App() {
 
@@ -31,6 +32,8 @@ function App() {
               </a>
             </li>
           ))}
+          <li className='footer-right right-pos'><img src={background} alt="logo" id="logo-footer" /></li>
+          <li className='footer-right'>Made in Berlin</li>
         </ul>
       </div>
     </div>
