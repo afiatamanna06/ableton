@@ -3,3 +3,21 @@
     width: 80%;
     margin-left: 7rem;
 }
+
+.footer-links{
+    list-style-type: none;
+    background-color: white;
+    margin-left: 4rem;
+    margin-bottom: 7rem;
+    margin-top: 4rem;
+}
+
+.footer-links li{
+    display: inline;
+}
+
+.f-links{
+    margin-right: 1rem;
+    font-size: .75rem;
+    font-weight: bold;
+}
